@@ -1,0 +1,5 @@
+a = input('what is your name? \n')
+b = int(input('how old are you? \n'))
+c = int(input('what is the current year? \n'))
+x = ('will turn 100 in year \n' + str(c + 100 - b) + '\n')
+print(x)
